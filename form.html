@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Best form ever</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="form.css">
+
+  </head>
+  <body>
+
+  	<!-- FIRST PAGE OF FORM -->
+
+  	<div class="container bottom">
+		<br>
+
+		<div class="row">
+			<div class="col-lg-6">
+				Full name
+				<div class="input-group">
+				  <input type="text" class="form-control" placeholder="John Doe" aria-describedby="sizing-addon1">
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+				Email address
+				<div class="input-group">
+				  <input type="text" class="form-control" placeholder="johndoe@gmail.com" aria-describedby="sizing-addon1">
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="row">
+			<div class="col-lg-6">
+				Address Line 1
+				<div class="input-group">
+				  
+				  <input type="text" class="form-control" placeholder="123 Park Parkway" aria-describedby="sizing-addon1">
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+				Address Line 2
+				<div class="input-group">
+				  
+				  <input type="text" class="form-control" placeholder="Apt 2" aria-describedby="sizing-addon1">
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="row">
+			<div class="col-lg-6">
+				City
+				<div class="input-group">
+				  
+				  <input type="text" class="form-control" placeholder="Los Angeles">
+				</div>
+			</div>
+
+			<div class="col-lg-2">
+				State
+				<div class="input-group">
+				  
+				  <input type="text" class="form-control" placeholder="CA">
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				ZIP/ Postal Code
+				<div class="input-group">
+				  
+				  <input type="text" class="form-control" placeholder="12345">
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="row">
+			<div class="col-lg-6">
+				Country
+				<div class="input-group">
+				  
+				  <input type="text" class="form-control" placeholder="USA" aria-describedby="sizing-addon1">
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		<button class="next-btn btn">Next</button>
+
+  	</div>
+
+  	<!-- SECOND PART OF THE FORM -->
+
+  	<div class="container bottom2">
+		<br>
+
+		<div class="row">
+
+			<div class="col-lg-6">
+				<p>Which products of ours are you interested in?</p>
+				<input type="checkbox">Doors <br>
+				<input type="checkbox">Windows <br>
+				<input type="checkbox">Roofing <br>
+				<input type="checkbox">Bathroom <br>
+
+			</div>
+			    
+		</div>
+
+		<br>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<p>Would you like to request an appointment with one of our staff members?</p>
+				<form action="">
+					<input type="radio" name="option" value="yes"> Yes <br>
+					<input type="radio" name="option" value="no"> No <br><br>
+				</form>
+				
+				<p><em>If you answer yes, someone on staff will contact you shortly.</em></p>
+			</div>
+
+		</div>
+
+		<br>
+
+		<button class="next2-btn btn">Next</button>
+		<button class="back-btn btn">Back</button>
+
+  	</div>
+
+  	<div class="container bottom3">
+		<br>
+
+		<div class="row">
+
+			<div class="col-lg-12">
+				<p>Please select the date that you would like to start this project.</p>
+				<input id="datepicker" type="text">
+			</div>
+			    
+		</div>
+
+		<br>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<p>Any additional comments?</p>
+				<div class="input-group">
+				  <textarea class="form-control"></textarea>
+				</div>
+			</div>
+
+		</div>
+
+		<br>
+
+		<a href="thankyou.html" class="submit-btn btn btn-default" role="button">Submit</a>
+		<button class="back2-btn btn">Back</button>
+
+  	</div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <script src="form.js"></script>
+
+	<!-- datepicker ish -->
+  	<link rel="stylesheet" type="text/css" href="datetimepicker-master/jquery.datetimepicker.css"/ >
+	<script src="datetimepicker-master/jquery.js"></script>
+	<script src="datetimepicker-master/build/jquery.datetimepicker.full.min.js"></script>
+  </body>
+</html>

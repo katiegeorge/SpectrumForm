@@ -1,0 +1,46 @@
+body {
+	background-image: url("suburb.JPG");
+	font-family: "Avenir";
+	position: relative;
+}
+
+.bottom, .bottom2, .bottom3 {
+	background-color: rgb(9,56,36);
+	color: white;
+	width: 60%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.thankyoupage, .top {
+	background-color: rgb(9,56,36);
+	color: white;
+	width: 60%;
+	padding: 1% 3% 1% 3%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.next-btn, .next2-btn, .submit-btn {
+	float: right;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.back-btn, .back2-btn {
+	float: right;
+}
+
+#datepicker {
+	width: 50%;
+	color: black;
+}
+
+.input-group {
+	width: 100%;
+}
+
+input[type=checkbox] {
+  transform: scale(1.2);
+  margin-right: 5px;
+}
